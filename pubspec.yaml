@@ -20,7 +20,7 @@ dependencies:
   novident_nodes: ^1.2.4
   novident_tree_view: ^1.1.0
   collection: ^1.19.1
-  meta: ^1.17.0
+  meta: ^1.16.0
 
 dev_dependencies:
   flutter_test:
