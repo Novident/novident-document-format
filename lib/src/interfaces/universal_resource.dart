@@ -1,0 +1,22 @@
+/// All the classes that implements this mixin
+/// the compiler will take them as a resource
+/// that should be counted to get an image/video/formula, etc;
+mixin UniversalResource {
+  /// This checks first is the Node follows the Resource standard
+  bool get isResource;
+
+  /// This get the resource
+  Object? resource(ResourceType type);
+}
+
+enum ResourceType {
+  image,
+  video,
+  pdf,
+  txt,
+  formula,
+  hyperlink,
+  // just when a file cannot be visualized
+  // this is setted to the [DocumentResource]
+  unknown,
+}
