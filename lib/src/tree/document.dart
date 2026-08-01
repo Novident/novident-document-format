@@ -146,7 +146,6 @@ final class Document extends Node
     return 'Document('
         'details: $details, '
         'attachedSection: $attachedSection,'
-        'synopsis: synopsis, '
         'name: $name'
         'trashOptions: $trashOptions'
         ')';

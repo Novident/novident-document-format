@@ -349,7 +349,6 @@ final class Folder extends NodeContainer
   static String? __type;
 
   @internal
-  @protected
   static String get objectType =>
       __type ??= Folder._internal().runtimeType.toString();
 

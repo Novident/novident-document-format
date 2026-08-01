@@ -29,13 +29,7 @@ Add the dependency to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  novident_document_format: ^1.0.0
-```
-
-Then import the package:
-
-```dart
-import 'package:novident_document_format/novident_document_format.dart';
+  novident_document_format: <latest> 
 ```
 
 ## Usage

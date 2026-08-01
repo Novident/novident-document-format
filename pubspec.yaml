@@ -1,10 +1,18 @@
 name: novident_document_format
 description: Core document tree model for the Novident writing ecosystem.
 version: 1.0.0
+repository: https://github.com/Novident/novident-document-format/
+homepage: https://github.com/Novident/novident-document-format/
+documentation: https://github.com/Novident/novident-document-format/
+issue_tracker: https://github.com/Novident/novident-document-format/issues
 
 environment:
   sdk: ">=3.4.3 <4.0.0" 
   flutter: ">=3.32.0"
+
+topics:
+  - document
+  - novident
 
 dependencies:
   flutter:
