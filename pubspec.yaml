@@ -22,7 +22,7 @@ dependencies:
   novident_editor_document: ^1.0.2
   novident_editor_delta_simplify: ^1.0.0
   collection: ^1.19.1
-  meta: ^1.16.0
+  meta: ^1.17.0
 
 dev_dependencies:
   flutter_test:
